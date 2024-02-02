@@ -130,27 +130,53 @@
 
 
 #region Task5
+//List<int> numbers = new List<int>();
+//int sum = 0;
+//while (true)
+//{
+//	Console.Write("Please enter digit(If you stop program,please enter 0 : ");
+//	int number = int.Parse(Console.ReadLine());
 
+//	if(number == 0)
+//	{
+//		Console.WriteLine("Sum : " + sum);
+//		break;
+//	}
+//	numbers.Add(number);
+//	sum += number;
+//}
 
-List<int> numbers = new List<int>();
-int sum = 0;
-while (true)
+//foreach(int number in numbers)
+//{
+//	Console.Write(number+" ");
+//}
+
+#endregion
+
+#region Task6
+
+Console.Write("Enter digit : ");
+
+int number = int.Parse(Console.ReadLine());
+
+int tempnumber = number;
+int qaliq = 0;
+int reverseNumber = 0;
+while (tempnumber > 0)
 {
-	Console.Write("Please enter digit(If you stop program,please enter 0 : ");
-	int number = int.Parse(Console.ReadLine());
-
-	if(number == 0)
-	{
-		Console.WriteLine("Sum : " + sum);
-		break;
-	}
-	numbers.Add(number);
-	sum += number;
+	qaliq = tempnumber % 10;
+	reverseNumber = reverseNumber*10 +qaliq;
+	tempnumber = tempnumber / 10;
 }
 
-foreach(int number in numbers)
+if( number == reverseNumber)
 {
-	Console.Write(number+" ");
+	Console.WriteLine("This is palindrome number");
 }
+else
+{
+	Console.WriteLine("This is not palindrome number");
+}
+
 
 #endregion
