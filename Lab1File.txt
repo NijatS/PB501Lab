@@ -1,0 +1,55 @@
+Task - 1
+Tələbə İmtahan Qiymətini Daxil Edir. Daxil Edilən İmtahan Qiyməti 0 və 100 Aralığında Olmalıdır.
+Əgər Qiymət 91 və 100 Aralığındadırsa A Çap Etsin.
+Əgər Qiymət 81 və 90 Aralığındadırsa B Çap Etsin.
+Əgər Qiymət 71 və 80 Aralığındadırsa C Çap Etsin.
+Əgər Qiymət 61 və 70 Aralığındadırsa D Çap Etsin.
+Əgər Qiymət 51 və 60 Aralığındadırsa E Çap Etsin.
+Əgər Qiymət 51 -dən Kiçikdirsə Kəsildiniz Çap Etsin.
+
+Task-2: Ədədlərdən ibarət olan arraydə neçə müsbət neçə mənfi ədəd olduğunu ekrana çıxardan alqoritm yazın.
+Task-3: Ədədlərdən ibarət olan bir array verilib həmin arraydə olan ən böyük ədədi ekrana yazdıran alqoritm yazın.
+Task-4: Write a program in C# which concatenates two lists. [4,5,6], [1,2,3] → [1,2,3,4,5,6]
+Task-5: Write a program in C# which prompts the user to input a series of integers until the user stops entering 0 using a while loop. Calculate and print the sum of all the positive integers entered.
+Task-6: Palindrome number
+Task-7: Write a program in C# which asks the user for an integer number and answers if it is a prime number or not.
+
+
+
+Palindrome =>
+ while (tempOriginal > 0) {
+
+    int lastDigit = tempOriginal % 10;
+    reverseNum = reverseNum * 10 + lastDigit;
+    tempOriginal = tempOriginal / 10;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
