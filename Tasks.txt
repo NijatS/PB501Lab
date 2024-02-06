@@ -1,0 +1,62 @@
+Task - 1
+Tələbə İmtahan Qiymətini Daxil Edir. Daxil Edilən İmtahan Qiyməti 0 və 100 Aralığında Olmalıdır.
+Əgər Qiymət 91 və 100 Aralığındadırsa A Çap Etsin.
+Əgər Qiymət 81 və 90 Aralığındadırsa B Çap Etsin.
+Əgər Qiymət 71 və 80 Aralığındadırsa C Çap Etsin.
+Əgər Qiymət 61 və 70 Aralığındadırsa D Çap Etsin.
+Əgər Qiymət 51 və 60 Aralığındadırsa E Çap Etsin.
+Əgər Qiymət 51 -dən Kiçikdirsə Kəsildiniz Çap Etsin.
+
+Task-2: Ədədlərdən ibarət olan arraydə neçə müsbət neçə mənfi ədəd olduğunu ekrana çıxardan alqoritm yazın.
+
+Task-3: Ədədlərdən ibarət olan bir array verilib həmin arraydə olan ən böyük ədədi ekrana yazdıran alqoritm yazın.
+
+Task-4: Write a program in C# which concatenates two lists. [4,5,6], [1,2,3] → [1,2,3,4,5,6]
+
+Task-5: Write a program in C# which prompts the user to input a series of integers until the user stops entering 0 using a while loop. Calculate and print the sum of all the positive integers entered.
+
+Task-6: Palindrome number
+Palindrome =>
+ while (tempOriginal > 0) {
+
+    int lastDigit = tempOriginal % 10;
+    reverseNum = reverseNum * 10 + lastDigit;
+    tempOriginal = tempOriginal / 10;
+  }
+
+Task-7: Write a program in C# which asks the user for an integer number and answers if it is a prime number or not.
+
+Task-8: Bir dayanacqda park eden taksinin 1 saatı 5-azn, Avtobusun 1 saatı 6-azn, yük maşının 1 saatı 6.5-Azn dir. Taksi 1 saat-dan sonrakı hər saat başı üçün %20 daha çox, avtobus 1 saat-dan sonrakı hər saat başı üçün toplamda %21.5 və yük maşını 1 saat-dan  sonrakı hər saat başı üçün toplamda %25 daha çox ödəniş edir. Buna göre console-dən girilən maşın tipi ve park etdiyi saat məlumatl daxil edildikdən sonra ekrana ödəniləcək park məbləğini hesablayan programın algoritmini qurun
+
+Task-9: int tipindən array və 1 int tipindən ədəd qəbul edən metod yazın. Metod bu ədədin bu arrayin hər hansı bir elementinə bərabər olub-olmadığını tapsın.
+
+Task-10: İstənilən sayda tam ədəd qəbul edən metod yazın. Metod bu ədədlər arasında ən böyüyünü tapıb qaytarsın
+
+Task-11: Write a program in C# Sharp to create a function to input a string and count the number of spaces within the string.
+
+Task-12: Write a program in C# Sharp to create a recursive function to find the factorial of a given number.
+
+Task-13: Write a C# Sharp program to check if two given strings are anagrams or not.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
