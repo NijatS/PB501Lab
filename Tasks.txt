@@ -1,4 +1,20 @@
-Task - 1
+Variables, data types, operators: 
+
+Task 1:
+- Havanın temperaturu verilir. Əgər temperatur 15 - dən kiçikdirsə ekrana yazılsın "Hava soyuqdur", 15 - dən böyükdürsə ekrana yazılsın "Hava istidir".
+Task 2 :
+ -Doğum  ili verilir və yaşını hesablayan algoritm qurun.
+Task 3:
+- Verilmiş üç ədəddən ən kiçiyini tapan alqoritm qurun.
+
+Conditions:
+
+Task 1 :
+- Kullanıcının yaşı 12 ve üzeri ise web sayfasına kayıt olabileceğini, 12 den küçük ise kayıt olamayacağını ekrana yazan kodları yazınız.
+Task 2 :
+- Bir kişi mağazadan 100 TL ve üzeri alışveriş yaparsa %10 indirim, 200 TL ve üzeri alışveriş yaparsa %15 indirim, 300 TL ve üzeri alışveriş yaparsa %20 indirim kazandığını ve ödeyeceği miktarı ekrana yazan C # kodlarını yazınız.
+
+Task-1
 Tələbə İmtahan Qiymətini Daxil Edir. Daxil Edilən İmtahan Qiyməti 0 və 100 Aralığında Olmalıdır.
 Əgər Qiymət 91 və 100 Aralığındadırsa A Çap Etsin.
 Əgər Qiymət 81 və 90 Aralığındadırsa B Çap Etsin.
@@ -38,10 +54,12 @@ Task-12: Write a program in C# Sharp to create a recursive function to find the 
 
 Task-13: Write a C# Sharp program to check if two given strings are anagrams or not.
 
+Task-14: Write a program in C# Sharp to create a function to calculate the result of raising an integer number to another.
+
+Task-15: Istifadeciden a ve b deyiseni alin ve 3cu bir deyisen istifade etmeden a ve b-nin * qiymetlerini bir-birileri ile deyisin
 
 
-
-
+Console.BackgroundColor = ConsoleColor.Green
 
 
 
